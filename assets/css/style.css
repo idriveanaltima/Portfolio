@@ -1,0 +1,33 @@
+
+#footer {
+    background: #007b5e !important;
+}
+
+#footer ul.social li:hover a i {
+	font-size:100px;
+	margin-top:-50px;
+}
+/* #footer ul.social li a,{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+} */
+
+#portfolio {
+  border: 2px solid black;
+}
+
+#thumb {
+  height: 100px;
+  width: 100px;
+}
+
+#me {
+  border-radius: 50%;
+}
+
+#icons{
+  font-size: 50px;
+  color: white;
+}
