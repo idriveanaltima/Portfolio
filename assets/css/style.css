@@ -1,21 +1,18 @@
 
-#footer {
-    background: #007b5e !important;
+body {
+  background: url(../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-#footer ul.social li:hover a i {
-	font-size:100px;
-	margin-top:-50px;
-}
-/* #footer ul.social li a,{
-	color:#ffffff;
-}
-#footer ul.social li a:hover{
-	color:#eeeeee;
-} */
 
 #portfolio {
-  border: 2px solid black;
+  border: 2px solid black; 
+  color: white;
+  height: auto;
+  overflow: none;
+  width: 24%;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 #thumb {
@@ -23,11 +20,31 @@
   width: 100px;
 }
 
-#me {
-  border-radius: 50%;
-}
-
 #icons{
   font-size: 50px;
   color: white;
 }
+
+#about {
+  font-size: 30px;
+  color: white;
+  position: fixed;
+  bottom: 35%;
+}
+#title {
+  font-size: 20px;
+  color: white;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer ul li:hover a i {
+	font-size:100px;
+	margin-top:-50px;
+}
+
+
