@@ -8,16 +8,12 @@ body {
 #portfolio {
   border: 2px solid black; 
   color: white;
-  height: auto;
-  overflow: none;
-  width: 24%;
-  margin-right: 5px;
-  margin-left: 5px;
 }
 
 #thumb {
   height: 100px;
   width: 100px;
+  float:left;
 }
 
 #icons{
@@ -29,7 +25,7 @@ body {
   font-size: 30px;
   color: white;
   position: fixed;
-  bottom: 35%;
+  top: 45%;
 }
 #title {
   font-size: 20px;
