@@ -13,8 +13,9 @@ body {
 }
 
 #portfolio {
-  border: 2px solid black; 
+  border: 2px solid rgb(59, 59, 59); 
   color: white;
+  background-color: silver;
 }
 
 #thumb {
@@ -47,7 +48,11 @@ body {
   display:none;
 }
 
-@media (max-width: 1000px) {
+#footer {
+  margin-top: 8%
+}
+
+@media (max-width: 1024px) {
   #about {
     margin-top: 0%;
   }
@@ -58,6 +63,9 @@ body {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
+  }
+  #footer {
+    margin-top: 0;
   }
 }
 
