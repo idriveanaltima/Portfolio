@@ -24,8 +24,7 @@ body {
 #about {
   font-size: 30px;
   color: white;
-  position: fixed;
-  top: 45%;
+  margin-top: 45%;
 }
 #title {
   font-size: 20px;
